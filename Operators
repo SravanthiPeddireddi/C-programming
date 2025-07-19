@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 5, result;
+
+    // Arithmetic
+    result = a + b;
+    printf("Addition: %d\n", result);
+
+    // Relational
+    printf("a > b: %d\n", a > b);
+
+    // Logical
+    if(a > 0 && b > 0) {
+        printf("Both are positive.\n");
+    }
+
+    // Assignment
+    a += 5; 
+    printf("Updated a: %d\n", a);
+
+    // Bitwise
+    printf("a & b: %d\n", a & b);
+
+    // Ternary
+    int max = (a > b) ? a : b;
+    printf("Max: %d\n", max);
+
+    // Sizeof
+    printf("Size of int: %lu\n", sizeof(int));
+
+    return 0;
+}
