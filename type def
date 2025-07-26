@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+typedef int number;
+
+int main() {
+    number a = 10;  // 'number' is now another name for 'int'
+    printf("Value: %d\n", a);
+    return 0;
+}
